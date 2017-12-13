@@ -10,7 +10,6 @@
 
 #import "XWZCodePayInputService.h"
 #import <XWZNumberBoxView/XWZNumberBoxView.h>
-#import "XWZNumberBoxView.h"
 
 
 @interface XWZCodePayInputService()<UITextFieldDelegate>
@@ -54,7 +53,6 @@
                     if (weakSelf.finishBlock) {
                         weakSelf.finishBlock(boxs);
                     }
-                    [weakSelf startLoading];
                 });
                 
             } else {

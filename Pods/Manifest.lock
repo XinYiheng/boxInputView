@@ -1,0 +1,21 @@
+PODS:
+  - XWZNumberBoxView (0.0.1)
+
+DEPENDENCIES:
+  - XWZNumberBoxView (from `https://github.com/XinYiheng/boxInputView.git`)
+
+EXTERNAL SOURCES:
+  XWZNumberBoxView:
+    :git: https://github.com/XinYiheng/boxInputView.git
+
+CHECKOUT OPTIONS:
+  XWZNumberBoxView:
+    :commit: 016cb669c31973e3a74357eb7559284215bd9631
+    :git: https://github.com/XinYiheng/boxInputView.git
+
+SPEC CHECKSUMS:
+  XWZNumberBoxView: d001974528ed736a58101d3fda77a9b89d40b591
+
+PODFILE CHECKSUM: bb5ce3821ca49f6536a94ce969b67ce514af408e
+
+COCOAPODS: 1.3.1

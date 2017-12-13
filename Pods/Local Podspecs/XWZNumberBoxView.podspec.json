@@ -1,0 +1,22 @@
+{
+  "name": "XWZNumberBoxView",
+  "version": "0.0.1",
+  "summary": "A easy way of making character box view.",
+  "homepage": "http://EXAMPLE/XWZNumberBoxView",
+  "license": "MIT",
+  "authors": {
+    "Boat": "xinyiheng518@163.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "git": "http://github.com/XWZNumberBoxView.git",
+    "tag": "{s.version}"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "requires_arc": true
+}

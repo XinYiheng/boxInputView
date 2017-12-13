@@ -26,11 +26,22 @@
     
     XWZCodePayInputService *service = [[XWZCodePayInputService alloc] init];
     _service = service;
+    __weak typeof(self) weakSelf = self;
+    _service.finishBlock = ^(NSString *password) {
+        [weakSelf startLoading];
+    };
     
 }
-
+- (void)startLoading {
+    [_service startLoading];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [_service stopLoading];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [_service clearPassWord];
+        });
+    });
+}
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    
     [_service show];
 }
 
