@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE580E421FE12BFF00939436 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE580E411FE12BFF00939436 /* AppDelegate.m */; };
+		AE580E481FE12BFF00939436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE580E461FE12BFF00939436 /* Main.storyboard */; };
+		AE580E4A1FE12BFF00939436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE580E491FE12BFF00939436 /* Assets.xcassets */; };
+		AE580E4D1FE12BFF00939436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE580E4B1FE12BFF00939436 /* LaunchScreen.storyboard */; };
+		AE580E501FE12BFF00939436 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE580E4F1FE12BFF00939436 /* main.m */; };
+		AE580E5A1FE12C0000939436 /* XWZPwdDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE580E591FE12C0000939436 /* XWZPwdDemoTests.m */; };
+		AE580E651FE12C0000939436 /* XWZPwdDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE580E641FE12C0000939436 /* XWZPwdDemoUITests.m */; };
+		AE580E771FE12C1F00939436 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE580E741FE12C1F00939436 /* ViewController.m */; };
+		AE580E781FE12C1F00939436 /* XWZCodePayInputService.m in Sources */ = {isa = PBXBuildFile; fileRef = AE580E751FE12C1F00939436 /* XWZCodePayInputService.m */; };
+		AE580E791FE12C1F00939436 /* XWZCodePayInputService.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE580E761FE12C1F00939436 /* XWZCodePayInputService.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE580E561FE12C0000939436 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE580E351FE12BFF00939436 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE580E3C1FE12BFF00939436;
+			remoteInfo = XWZPwdDemo;
+		};
+		AE580E611FE12C0000939436 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE580E351FE12BFF00939436 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE580E3C1FE12BFF00939436;
+			remoteInfo = XWZPwdDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE580E3D1FE12BFF00939436 /* XWZPwdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWZPwdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE580E401FE12BFF00939436 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE580E411FE12BFF00939436 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE580E471FE12BFF00939436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE580E491FE12BFF00939436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE580E4C1FE12BFF00939436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE580E4E1FE12BFF00939436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE580E4F1FE12BFF00939436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE580E551FE12C0000939436 /* XWZPwdDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWZPwdDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE580E591FE12C0000939436 /* XWZPwdDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWZPwdDemoTests.m; sourceTree = "<group>"; };
+		AE580E5B1FE12C0000939436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE580E601FE12C0000939436 /* XWZPwdDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWZPwdDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE580E641FE12C0000939436 /* XWZPwdDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWZPwdDemoUITests.m; sourceTree = "<group>"; };
+		AE580E661FE12C0000939436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE580E721FE12C1F00939436 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE580E731FE12C1F00939436 /* XWZCodePayInputService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWZCodePayInputService.h; sourceTree = "<group>"; };
+		AE580E741FE12C1F00939436 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE580E751FE12C1F00939436 /* XWZCodePayInputService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWZCodePayInputService.m; sourceTree = "<group>"; };
+		AE580E761FE12C1F00939436 /* XWZCodePayInputService.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XWZCodePayInputService.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE580E3A1FE12BFF00939436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE580E521FE12C0000939436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE580E5D1FE12C0000939436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE580E341FE12BFF00939436 = {
+			isa = PBXGroup;
+			children = (
+				AE580E3F1FE12BFF00939436 /* XWZPwdDemo */,
+				AE580E581FE12C0000939436 /* XWZPwdDemoTests */,
+				AE580E631FE12C0000939436 /* XWZPwdDemoUITests */,
+				AE580E3E1FE12BFF00939436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE580E3E1FE12BFF00939436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE580E3D1FE12BFF00939436 /* XWZPwdDemo.app */,
+				AE580E551FE12C0000939436 /* XWZPwdDemoTests.xctest */,
+				AE580E601FE12C0000939436 /* XWZPwdDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE580E3F1FE12BFF00939436 /* XWZPwdDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AE580E721FE12C1F00939436 /* ViewController.h */,
+				AE580E741FE12C1F00939436 /* ViewController.m */,
+				AE580E761FE12C1F00939436 /* XWZCodePayInputService.bundle */,
+				AE580E731FE12C1F00939436 /* XWZCodePayInputService.h */,
+				AE580E751FE12C1F00939436 /* XWZCodePayInputService.m */,
+				AE580E401FE12BFF00939436 /* AppDelegate.h */,
+				AE580E411FE12BFF00939436 /* AppDelegate.m */,
+				AE580E461FE12BFF00939436 /* Main.storyboard */,
+				AE580E491FE12BFF00939436 /* Assets.xcassets */,
+				AE580E4B1FE12BFF00939436 /* LaunchScreen.storyboard */,
+				AE580E4E1FE12BFF00939436 /* Info.plist */,
+				AE580E4F1FE12BFF00939436 /* main.m */,
+			);
+			path = XWZPwdDemo;
+			sourceTree = "<group>";
+		};
+		AE580E581FE12C0000939436 /* XWZPwdDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE580E591FE12C0000939436 /* XWZPwdDemoTests.m */,
+				AE580E5B1FE12C0000939436 /* Info.plist */,
+			);
+			path = XWZPwdDemoTests;
+			sourceTree = "<group>";
+		};
+		AE580E631FE12C0000939436 /* XWZPwdDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE580E641FE12C0000939436 /* XWZPwdDemoUITests.m */,
+				AE580E661FE12C0000939436 /* Info.plist */,
+			);
+			path = XWZPwdDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE580E3C1FE12BFF00939436 /* XWZPwdDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE580E691FE12C0000939436 /* Build configuration list for PBXNativeTarget "XWZPwdDemo" */;
+			buildPhases = (
+				AE580E391FE12BFF00939436 /* Sources */,
+				AE580E3A1FE12BFF00939436 /* Frameworks */,
+				AE580E3B1FE12BFF00939436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XWZPwdDemo;
+			productName = XWZPwdDemo;
+			productReference = AE580E3D1FE12BFF00939436 /* XWZPwdDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE580E541FE12C0000939436 /* XWZPwdDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE580E6C1FE12C0000939436 /* Build configuration list for PBXNativeTarget "XWZPwdDemoTests" */;
+			buildPhases = (
+				AE580E511FE12C0000939436 /* Sources */,
+				AE580E521FE12C0000939436 /* Frameworks */,
+				AE580E531FE12C0000939436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE580E571FE12C0000939436 /* PBXTargetDependency */,
+			);
+			name = XWZPwdDemoTests;
+			productName = XWZPwdDemoTests;
+			productReference = AE580E551FE12C0000939436 /* XWZPwdDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE580E5F1FE12C0000939436 /* XWZPwdDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE580E6F1FE12C0000939436 /* Build configuration list for PBXNativeTarget "XWZPwdDemoUITests" */;
+			buildPhases = (
+				AE580E5C1FE12C0000939436 /* Sources */,
+				AE580E5D1FE12C0000939436 /* Frameworks */,
+				AE580E5E1FE12C0000939436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE580E621FE12C0000939436 /* PBXTargetDependency */,
+			);
+			name = XWZPwdDemoUITests;
+			productName = XWZPwdDemoUITests;
+			productReference = AE580E601FE12C0000939436 /* XWZPwdDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE580E351FE12BFF00939436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Boat;
+				TargetAttributes = {
+					AE580E3C1FE12BFF00939436 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AE580E541FE12C0000939436 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE580E3C1FE12BFF00939436;
+					};
+					AE580E5F1FE12C0000939436 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE580E3C1FE12BFF00939436;
+					};
+				};
+			};
+			buildConfigurationList = AE580E381FE12BFF00939436 /* Build configuration list for PBXProject "XWZPwdDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE580E341FE12BFF00939436;
+			productRefGroup = AE580E3E1FE12BFF00939436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE580E3C1FE12BFF00939436 /* XWZPwdDemo */,
+				AE580E541FE12C0000939436 /* XWZPwdDemoTests */,
+				AE580E5F1FE12C0000939436 /* XWZPwdDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE580E3B1FE12BFF00939436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE580E791FE12C1F00939436 /* XWZCodePayInputService.bundle in Resources */,
+				AE580E4D1FE12BFF00939436 /* LaunchScreen.storyboard in Resources */,
+				AE580E4A1FE12BFF00939436 /* Assets.xcassets in Resources */,
+				AE580E481FE12BFF00939436 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE580E531FE12C0000939436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE580E5E1FE12C0000939436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE580E391FE12BFF00939436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE580E771FE12C1F00939436 /* ViewController.m in Sources */,
+				AE580E501FE12BFF00939436 /* main.m in Sources */,
+				AE580E781FE12C1F00939436 /* XWZCodePayInputService.m in Sources */,
+				AE580E421FE12BFF00939436 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE580E511FE12C0000939436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE580E5A1FE12C0000939436 /* XWZPwdDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE580E5C1FE12C0000939436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE580E651FE12C0000939436 /* XWZPwdDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE580E571FE12C0000939436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE580E3C1FE12BFF00939436 /* XWZPwdDemo */;
+			targetProxy = AE580E561FE12C0000939436 /* PBXContainerItemProxy */;
+		};
+		AE580E621FE12C0000939436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE580E3C1FE12BFF00939436 /* XWZPwdDemo */;
+			targetProxy = AE580E611FE12C0000939436 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE580E461FE12BFF00939436 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE580E471FE12BFF00939436 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE580E4B1FE12BFF00939436 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE580E4C1FE12BFF00939436 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE580E671FE12C0000939436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE580E681FE12C0000939436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE580E6A1FE12C0000939436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XWZPwdDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boat.com.XWZPwdDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE580E6B1FE12C0000939436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XWZPwdDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boat.com.XWZPwdDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE580E6D1FE12C0000939436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XWZPwdDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boat.com.XWZPwdDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XWZPwdDemo.app/XWZPwdDemo";
+			};
+			name = Debug;
+		};
+		AE580E6E1FE12C0000939436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XWZPwdDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boat.com.XWZPwdDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XWZPwdDemo.app/XWZPwdDemo";
+			};
+			name = Release;
+		};
+		AE580E701FE12C0000939436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XWZPwdDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boat.com.XWZPwdDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XWZPwdDemo;
+			};
+			name = Debug;
+		};
+		AE580E711FE12C0000939436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XWZPwdDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boat.com.XWZPwdDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XWZPwdDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE580E381FE12BFF00939436 /* Build configuration list for PBXProject "XWZPwdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE580E671FE12C0000939436 /* Debug */,
+				AE580E681FE12C0000939436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE580E691FE12C0000939436 /* Build configuration list for PBXNativeTarget "XWZPwdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE580E6A1FE12C0000939436 /* Debug */,
+				AE580E6B1FE12C0000939436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE580E6C1FE12C0000939436 /* Build configuration list for PBXNativeTarget "XWZPwdDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE580E6D1FE12C0000939436 /* Debug */,
+				AE580E6E1FE12C0000939436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE580E6F1FE12C0000939436 /* Build configuration list for PBXNativeTarget "XWZPwdDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE580E701FE12C0000939436 /* Debug */,
+				AE580E711FE12C0000939436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE580E351FE12BFF00939436 /* Project object */;
+}
