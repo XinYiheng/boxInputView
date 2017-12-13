@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   # s.description  = <<-DESC
 
   s.homepage     = "http://EXAMPLE/XWZNumberBoxView"
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "Boat" => "xinyiheng518@163.com" }
 
